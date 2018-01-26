@@ -13,8 +13,10 @@
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
-          <?php echo $this->Html->link('Products',array('controller'=>'products','action'=>'add'),array('class'=>'nav-link fa fa-fw fa-area-chart nav-link-text'))?>
-          
+          <a class="nav-link" href="">
+            <i class="fa fa-fw fa-area-chart"></i>
+            <span class="">Products</span>
+          </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
           <a class="nav-link" href="tables.html">
